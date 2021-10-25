@@ -1,12 +1,11 @@
-import { Link } from "react-router-dom";
 import "./Header.css";
 
 export const Header = () => {
     return (
         <header>
-            <Link to="/home">
+            <a href="./home">
                 <h3>Hacker News</h3>
-            </Link>
+            </a>
         </header>
     )
 }
